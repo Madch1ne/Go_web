@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="Les différentes regle du jeu de GO."/>
+		<meta name="keywords" content="Cahier des charges, Jeu de GO, Projet GLP, regle "/>
+		<meta name="author" content="Zakariya" />
+		<link rel="icon" href="img/icon.jpg"/>
+		<link rel="stylesheet" href="styles.css"/>
+
+		<title>Projet: Jeu de GO</title>
+	</head>
+<body>
+	<header>
+		<h1>Projet Jeu de Go - Stratégie et Innovation</h1>
+		<a href="index.html"><img src="img/logo.jpg" alt="logo"  id="logo"/></a> 
+		<nav>
+            <ul class="navigation">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoire.html">Histoire et Origine du Go</a></li>
+                <li><a href="regle.html">Regle</a></li>
+                <li><a href="fonctionnalites.html">Fonctionnalités</a></li>
+                <li><a href="evolutions.html">Perspective d'évolution</a></li>
+                <li><a href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </nav>
+	</header>
+	
+
+
+<main>
+    <section>
+        <h2>Les règles du jeu de Go</h2>
+    </section>
+
+    <section>
+        <h3> Objectif du jeu</h3>
+        <p>Le jeu de Go est un jeu de stratégie et de territoire où deux joueurs placent alternativement des pierres 
+        sur un plateau quadrillé (traditionnellement 19x19 intersections). L'objectif est de contrôler le plus 
+        grand territoire possible tout en capturant les pierres de l’adversaire.</p>
+    </section>
+
+    <section>
+        <h3> Déroulement d'une partie</h3>
+        <ul>
+            <li>Les joueurs jouent chacun leur tour, en plaçant une pierre sur une intersection libre du plateau.</li>
+            <li>Une pierre ou un groupe de pierres est capturé si elle est complètement encerclée par les pierres adverses.</li>
+            <li>Un joueur peut passer son tour s'il ne voit plus de coup avantageux.</li>
+            <li>Le jeu se termine quand les deux joueurs passent leur tour consécutivement.</li>
+            <li>Le gagnant est celui qui contrôle le plus de territoire et qui a capturé le plus de pierres adverses.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3> Règles fondamentales</h3>
+        
+        <h4> La capture des pierres</h4>
+        <p>Une pierre est capturée lorsqu'elle est complètement entourée par l’adversaire, c’est-à-dire sans liberté
+        (libertés = intersections vides adjacentes à la pierre).</p>
+
+        <h4> La règle du "Ko"</h4>
+        <p>Un joueur ne peut pas jouer un coup qui recréerait exactement la même position qu’un tour précédent. 
+        Cela empêche les situations de boucle infinie.</p>
+
+        <h4> La fin de partie et le comptage des points</h4>
+        <p>Quand les deux joueurs passent leur tour consécutivement, la partie s’arrête et on compte les points :</p>
+        <ul>
+            <li>Chaque intersection vide contrôlée par un joueur lui rapporte 1 point.</li>
+            <li>Chaque pierre capturée rapporte également 1 point.</li>
+            <li>Dans certaines règles, un bonus ("komi") est ajouté pour le joueur blanc afin de compenser son désavantage 
+            de jouer en second.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3> Modifications spécifiques à notre projet</h3>
+        
+        <h4> Mode à trois joueurs</h4>
+        <p>Dans notre projet, nous avons introduit une variante trois joueurs. Contrairement à la version classique, 
+        nous avons ajouté une troisième couleur de pierre : rouge. Les joueurs doivent adapter leur stratégie pour 
+        éviter d’être pris en tenaille par deux adversaires simultanément.</p>
+
+        <h4> Nouvelles règles de capture</h4>
+        <p>Puisque trois joueurs sont en compétition, nous avons ajusté les règles de capture :</p>
+        <ul>
+            <li>Une pierre ou un groupe de pierres peut être capturé par un seul joueur ou **par une alliance temporaire** 
+            entre les deux autres joueurs.</li>
+            <li>Le joueur qui place la dernière pierre nécessaire pour capturer gagne les points.</li>
+            <li>Un joueur peut décider de ne pas capturer immédiatement pour éviter qu’un adversaire en profite.</li>
+        </ul>
+
+        <h4> Adaptation du calcul des points</h4>
+        <p>Étant donné qu’il y a trois joueurs, nous avons modifié le comptage des points :</p>
+        <ul>
+            <li>Le joueur avec le plus grand territoire gagne un bonus de 5 points.</li>
+            <li>Le joueur ayant capturé le plus de pierres gagne un bonus de 3 points.</li>
+            <li>Si deux joueurs atteignent le même score, la victoire est décidée par le nombre total de libertés restantes 
+            sur le plateau.</li>
+        </ul>
+    </section>
+
+    <section>
+        <img src="img/regle.png" alt="Plateau de Go 3 couleur"/>
+    </section>
+</main>
+	<footer>
+		 <p> 2025 - Projet Go - Réalisée par DINGA, GOARA , GUERROUMI </p>
+	</footer>
+</body>
+</html>
