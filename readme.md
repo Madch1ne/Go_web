@@ -18,6 +18,7 @@ Ce projet repose sur les technologies suivantes :
 ## Comment utiliser le site ?
 1. Accéder au site en cliquant sur ce lien :  
    (https://goara.alwaysdata.net/)
+   (https://madch1ne.github.io/Go_web/)
 2. Naviguer à travers les différentes pages en utilisant le menu interactif.
 3. Explorer les fonctionnalités et les règles du jeu de Go.
 4. Lire la conclusion pour découvrir les évolutions futures du projet.
