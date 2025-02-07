@@ -34,7 +34,7 @@ html, body {
 header {
     background: #333;
     color: white;
-    
+    padding: 15 px;
     text-align: center;
 }
 
