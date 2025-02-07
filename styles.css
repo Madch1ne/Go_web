@@ -40,7 +40,7 @@ header {
 
 
 main {
-    width: 80%;
+    width: auto;
     margin: auto;
 
     background: white;
