@@ -19,9 +19,10 @@ Ce projet repose sur les technologies suivantes :
 1. Accéder au site en cliquant sur ce lien :  
    (https://goara.alwaysdata.net/)
    (https://madch1ne.github.io/Go_web/)
-2. Naviguer à travers les différentes pages en utilisant le menu interactif.
-3. Explorer les fonctionnalités et les règles du jeu de Go.
-4. Lire la conclusion pour découvrir les évolutions futures du projet.
+   (https://guerroumi.alwaysdata.net/)
+3. Naviguer à travers les différentes pages en utilisant le menu interactif.
+4. Explorer les fonctionnalités et les règles du jeu de Go.
+5. Lire la conclusion pour découvrir les évolutions futures du projet.
 
 ## Organisation du projet
 Le site est structuré en plusieurs pages :
