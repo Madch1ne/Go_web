@@ -28,6 +28,7 @@ html, body {
     flex-direction: column;
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
+    width: auto;
 }
 
 
@@ -36,6 +37,7 @@ header {
     color: white;
     padding: 15 px;
     text-align: center;
+    width: auto;
     
 }
 
